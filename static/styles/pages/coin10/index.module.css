@@ -1,0 +1,32 @@
+.coin10 {
+
+}
+
+.h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.content_1, .content_2, .content_3, .content_4, .content_5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_title {
+    flex-basis: 35%;
+    margin: auto;
+}
+
+.content_image {
+    flex-basis: 65%;
+}
+
+.boxDetail {
+    padding: 0 2rem;
+}
+
+.detailImage {
+    margin: auto;
+    display: block;
+    padding: 2rem 0;
+}

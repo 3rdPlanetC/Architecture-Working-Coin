@@ -1,0 +1,55 @@
+html, body {
+  	padding: 0;
+	margin: 0;
+	font-family: "trirong";
+	font-size: 16px;
+}
+
+a {
+  	color: inherit;
+  	text-decoration: none;
+}
+
+* {
+  	box-sizing: border-box;
+}
+
+@font-face {
+	src:url("../fonts/Trirong-Medium.ttf");
+	font-family: "trirong";
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 7200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
